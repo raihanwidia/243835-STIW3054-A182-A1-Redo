@@ -1,6 +1,6 @@
 # 243835-STIW3054-A182-A1-Redo
 
-#This Is Second try of Assigment 1 !
+# This Is Second try of Assigment 1 !
 
 ### About 
 This is assigment 1 of STIW3054 (Real Time Programming ) A182 Universiti Utara Malaysia , 
@@ -12,11 +12,11 @@ it is well known that estimating the resource need it for developing a software 
 
 ### Captured Output 
 
-![image] (https://github.com/raihanwidia/243835-STIW3054-A182-A1-Redo/blob/master/CaptureRun.JPG)
+![image](https://github.com/raihanwidia/243835-STIW3054-A182-A1-Redo/blob/master/CaptureRun.JPG)
 
 ### Diagram
 
-![image] (https://github.com/raihanwidia/243835-STIW3054-A182-A1-Redo/blob/master/243835Diagram.jpg)
+![image](https://github.com/raihanwidia/243835-STIW3054-A182-A1-Redo/blob/master/243835Diagram.jpg)
 
 ### Video
 
