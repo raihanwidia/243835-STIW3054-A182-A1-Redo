@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Metrics scope="Assigment1redo" type="Project" date="2019-03-23" xmlns="http://metrics.sourceforge.net/2003/Metrics-First-Flat">
    <Metric id = "VG" description ="McCabe Cyclomatic Complexity" max ="10" hint ="use Extract-method to split the method up">
-      <Values per = "method" avg = "2.893" stddev = "4.039" max = "18" maxinrange="false">
+      <Values per = "method" avg = "3.208" stddev = "4.282" max = "18" maxinrange="false">
          <Value name="totalEF" source ="CalculateExperienceFactors.java" package ="(default package)" value ="18" inrange="false"/>
          <Value name="totalTF" source ="CalculateTechnicalFactors.java" package ="(default package)" value ="15" inrange="false"/>
          <Value name="getTotalActorPoints" source ="CalculateActors.java" package ="(default package)" value ="5"/>
@@ -16,11 +16,7 @@
          <Value name="CalculateExperienceFactors" source ="CalculateExperienceFactors.java" package ="(default package)" value ="1"/>
          <Value name="CalculateTechnicalFactors" source ="CalculateTechnicalFactors.java" package ="(default package)" value ="1"/>
          <Value name="CalculateUseCase" source ="CalculateUseCase.java" package ="(default package)" value ="1"/>
-         <Value name="ExpFa" source ="FormulaCaulculate.java" package ="(default package)" value ="1"/>
          <Value name="FormulaCaulculate" source ="FormulaCaulculate.java" package ="(default package)" value ="1"/>
-         <Value name="SzUC" source ="FormulaCaulculate.java" package ="(default package)" value ="1"/>
-         <Value name="Tcf" source ="FormulaCaulculate.java" package ="(default package)" value ="1"/>
-         <Value name="Uucp" source ="FormulaCaulculate.java" package ="(default package)" value ="1"/>
          <Value name="ucp" source ="FormulaCaulculate.java" package ="(default package)" value ="1"/>
          <Value name="InputOutput" source ="InputOutput.java" package ="(default package)" value ="1"/>
          <Value name="calculate" source ="InputOutput.java" package ="(default package)" value ="1"/>
@@ -33,7 +29,7 @@
       </Values>
    </Metric>
    <Metric id = "PAR" description ="Number of Parameters" max ="5" hint ="Move invoked method or pass an object">
-      <Values per = "method" avg = "0.321" stddev = "0.804" max = "4">
+      <Values per = "method" avg = "0.375" stddev = "0.857" max = "4">
          <Value name="FormulaCaulculate" source ="FormulaCaulculate.java" package ="(default package)" value ="4"/>
          <Value name="CalculateActors" source ="CalculateActors.java" package ="(default package)" value ="1"/>
          <Value name="CalculateExperienceFactors" source ="CalculateExperienceFactors.java" package ="(default package)" value ="1"/>
@@ -45,11 +41,7 @@
          <Value name="totalEF" source ="CalculateExperienceFactors.java" package ="(default package)" value ="0"/>
          <Value name="totalTF" source ="CalculateTechnicalFactors.java" package ="(default package)" value ="0"/>
          <Value name="getWeightUseCases" source ="CalculateUseCase.java" package ="(default package)" value ="0"/>
-         <Value name="ExpFa" source ="FormulaCaulculate.java" package ="(default package)" value ="0"/>
          <Value name="Manhours" source ="FormulaCaulculate.java" package ="(default package)" value ="0"/>
-         <Value name="SzUC" source ="FormulaCaulculate.java" package ="(default package)" value ="0"/>
-         <Value name="Tcf" source ="FormulaCaulculate.java" package ="(default package)" value ="0"/>
-         <Value name="Uucp" source ="FormulaCaulculate.java" package ="(default package)" value ="0"/>
          <Value name="ucp" source ="FormulaCaulculate.java" package ="(default package)" value ="0"/>
          <Value name="InputOutput" source ="InputOutput.java" package ="(default package)" value ="0"/>
          <Value name="calculate" source ="InputOutput.java" package ="(default package)" value ="0"/>
@@ -65,7 +57,7 @@
       </Values>
    </Metric>
    <Metric id = "NBD" description ="Nested Block Depth" max ="5" hint ="use Extract-method to split the method up">
-      <Values per = "method" avg = "1.286" stddev = "0.881" max = "3">
+      <Values per = "method" avg = "1.333" stddev = "0.943" max = "3">
          <Value name="totalEF" source ="CalculateExperienceFactors.java" package ="(default package)" value ="3"/>
          <Value name="printTf" source ="InputOutput.java" package ="(default package)" value ="3"/>
          <Value name="printef" source ="InputOutput.java" package ="(default package)" value ="3"/>
@@ -80,11 +72,7 @@
          <Value name="CalculateExperienceFactors" source ="CalculateExperienceFactors.java" package ="(default package)" value ="1"/>
          <Value name="CalculateTechnicalFactors" source ="CalculateTechnicalFactors.java" package ="(default package)" value ="1"/>
          <Value name="CalculateUseCase" source ="CalculateUseCase.java" package ="(default package)" value ="1"/>
-         <Value name="ExpFa" source ="FormulaCaulculate.java" package ="(default package)" value ="1"/>
          <Value name="FormulaCaulculate" source ="FormulaCaulculate.java" package ="(default package)" value ="1"/>
-         <Value name="SzUC" source ="FormulaCaulculate.java" package ="(default package)" value ="1"/>
-         <Value name="Tcf" source ="FormulaCaulculate.java" package ="(default package)" value ="1"/>
-         <Value name="Uucp" source ="FormulaCaulculate.java" package ="(default package)" value ="1"/>
          <Value name="ucp" source ="FormulaCaulculate.java" package ="(default package)" value ="1"/>
          <Value name="InputOutput" source ="InputOutput.java" package ="(default package)" value ="1"/>
          <Value name="calculate" source ="InputOutput.java" package ="(default package)" value ="1"/>
@@ -134,13 +122,13 @@
       </Values>
    </Metric>
    <Metric id = "WMC" description ="Weighted methods per Class">
-      <Values per = "type" total = "81" avg = "10.125" stddev = "6.954" max = "24">
+      <Values per = "type" total = "77" avg = "9.625" stddev = "7.158" max = "24">
          <Value name="CalculateExperienceFactors" source ="CalculateExperienceFactors.java" package ="(default package)" value ="24"/>
          <Value name="CalculateTechnicalFactors" source ="CalculateTechnicalFactors.java" package ="(default package)" value ="16"/>
          <Value name="InputOutput" source ="InputOutput.java" package ="(default package)" value ="14"/>
-         <Value name="FormulaCaulculate" source ="FormulaCaulculate.java" package ="(default package)" value ="9"/>
          <Value name="CalculateActors" source ="CalculateActors.java" package ="(default package)" value ="6"/>
          <Value name="CalculateUseCase" source ="CalculateUseCase.java" package ="(default package)" value ="6"/>
+         <Value name="FormulaCaulculate" source ="FormulaCaulculate.java" package ="(default package)" value ="5"/>
          <Value name="PrintInputOrder" source ="PrintInputOrder.java" package ="(default package)" value ="5"/>
          <Value name="MainClass" source ="MainClass.java" package ="(default package)" value ="1"/>
       </Values>
@@ -170,9 +158,9 @@
       </Values>
    </Metric>
    <Metric id = "LCOM" description ="Lack of Cohesion of Methods">
-      <Values per = "type" avg = "0.25" stddev = "0.331" max = "0.75">
-         <Value name="FormulaCaulculate" source ="FormulaCaulculate.java" package ="(default package)" value ="0.75"/>
+      <Values per = "type" avg = "0.247" stddev = "0.326" max = "0.75">
          <Value name="InputOutput" source ="InputOutput.java" package ="(default package)" value ="0.75"/>
+         <Value name="FormulaCaulculate" source ="FormulaCaulculate.java" package ="(default package)" value ="0.722"/>
          <Value name="CalculateExperienceFactors" source ="CalculateExperienceFactors.java" package ="(default package)" value ="0.5"/>
          <Value name="CalculateActors" source ="CalculateActors.java" package ="(default package)" value ="0"/>
          <Value name="CalculateTechnicalFactors" source ="CalculateTechnicalFactors.java" package ="(default package)" value ="0"/>
@@ -182,8 +170,8 @@
       </Values>
    </Metric>
    <Metric id = "NOF" description ="Number of Attributes">
-      <Values per = "type" total = "14" avg = "1.75" stddev = "1.714" max = "5">
-         <Value name="FormulaCaulculate" source ="FormulaCaulculate.java" package ="(default package)" value ="5"/>
+      <Values per = "type" total = "18" avg = "2.25" stddev = "2.817" max = "9">
+         <Value name="FormulaCaulculate" source ="FormulaCaulculate.java" package ="(default package)" value ="9"/>
          <Value name="InputOutput" source ="InputOutput.java" package ="(default package)" value ="4"/>
          <Value name="CalculateExperienceFactors" source ="CalculateExperienceFactors.java" package ="(default package)" value ="2"/>
          <Value name="CalculateActors" source ="CalculateActors.java" package ="(default package)" value ="1"/>
@@ -194,8 +182,7 @@
       </Values>
    </Metric>
    <Metric id = "NSF" description ="Number of Static Attributes">
-      <Values per = "type" total = "10" avg = "1.25" stddev = "1.639" max = "4">
-         <Value name="FormulaCaulculate" source ="FormulaCaulculate.java" package ="(default package)" value ="4"/>
+      <Values per = "type" total = "6" avg = "0.75" stddev = "1.299" max = "4">
          <Value name="PrintInputOrder" source ="PrintInputOrder.java" package ="(default package)" value ="4"/>
          <Value name="InputOutput" source ="InputOutput.java" package ="(default package)" value ="1"/>
          <Value name="MainClass" source ="MainClass.java" package ="(default package)" value ="1"/>
@@ -203,14 +190,15 @@
          <Value name="CalculateExperienceFactors" source ="CalculateExperienceFactors.java" package ="(default package)" value ="0"/>
          <Value name="CalculateTechnicalFactors" source ="CalculateTechnicalFactors.java" package ="(default package)" value ="0"/>
          <Value name="CalculateUseCase" source ="CalculateUseCase.java" package ="(default package)" value ="0"/>
+         <Value name="FormulaCaulculate" source ="FormulaCaulculate.java" package ="(default package)" value ="0"/>
       </Values>
    </Metric>
    <Metric id = "NOM" description ="Number of Methods">
-      <Values per = "type" total = "27" avg = "3.375" stddev = "2.233" max = "7">
-         <Value name="FormulaCaulculate" source ="FormulaCaulculate.java" package ="(default package)" value ="7"/>
+      <Values per = "type" total = "23" avg = "2.875" stddev = "1.763" max = "6">
          <Value name="InputOutput" source ="InputOutput.java" package ="(default package)" value ="6"/>
          <Value name="PrintInputOrder" source ="PrintInputOrder.java" package ="(default package)" value ="5"/>
          <Value name="CalculateExperienceFactors" source ="CalculateExperienceFactors.java" package ="(default package)" value ="3"/>
+         <Value name="FormulaCaulculate" source ="FormulaCaulculate.java" package ="(default package)" value ="3"/>
          <Value name="CalculateActors" source ="CalculateActors.java" package ="(default package)" value ="2"/>
          <Value name="CalculateTechnicalFactors" source ="CalculateTechnicalFactors.java" package ="(default package)" value ="2"/>
          <Value name="CalculateUseCase" source ="CalculateUseCase.java" package ="(default package)" value ="2"/>
@@ -255,10 +243,10 @@
       <Value value="1"/>
    </Metric>
    <Metric id = "TLOC" description ="Total Lines of Code">
-      <Value value="329"/>
+      <Value value="318"/>
    </Metric>
    <Metric id = "MLOC" description ="Method Lines of Code">
-      <Values per = "method" total = "222" avg = "7.929" stddev = "12.572" max = "54">
+      <Values per = "method" total = "219" avg = "9.125" stddev = "13.233" max = "54">
          <Value name="totalEF" source ="CalculateExperienceFactors.java" package ="(default package)" value ="54"/>
          <Value name="totalTF" source ="CalculateTechnicalFactors.java" package ="(default package)" value ="45"/>
          <Value name="getTotalActorPoints" source ="CalculateActors.java" package ="(default package)" value ="15"/>
@@ -270,17 +258,13 @@
          <Value name="Manhours" source ="FormulaCaulculate.java" package ="(default package)" value ="9"/>
          <Value name="printactors" source ="InputOutput.java" package ="(default package)" value ="8"/>
          <Value name="printusecases" source ="InputOutput.java" package ="(default package)" value ="8"/>
+         <Value name="ucp" source ="FormulaCaulculate.java" package ="(default package)" value ="6"/>
          <Value name="main" source ="MainClass.java" package ="(default package)" value ="6"/>
          <Value name="calculate" source ="InputOutput.java" package ="(default package)" value ="5"/>
-         <Value name="SzUC" source ="FormulaCaulculate.java" package ="(default package)" value ="3"/>
-         <Value name="ucp" source ="FormulaCaulculate.java" package ="(default package)" value ="3"/>
          <Value name="CalculateActors" source ="CalculateActors.java" package ="(default package)" value ="1"/>
          <Value name="CalculateExperienceFactors" source ="CalculateExperienceFactors.java" package ="(default package)" value ="1"/>
          <Value name="CalculateTechnicalFactors" source ="CalculateTechnicalFactors.java" package ="(default package)" value ="1"/>
          <Value name="CalculateUseCase" source ="CalculateUseCase.java" package ="(default package)" value ="1"/>
-         <Value name="ExpFa" source ="FormulaCaulculate.java" package ="(default package)" value ="1"/>
-         <Value name="Tcf" source ="FormulaCaulculate.java" package ="(default package)" value ="1"/>
-         <Value name="Uucp" source ="FormulaCaulculate.java" package ="(default package)" value ="1"/>
          <Value name="InputOutput" source ="InputOutput.java" package ="(default package)" value ="0"/>
          <Value name="calculate" source ="PrintInputOrder.java" package ="(default package)" value ="0"/>
          <Value name="printTf" source ="PrintInputOrder.java" package ="(default package)" value ="0"/>
