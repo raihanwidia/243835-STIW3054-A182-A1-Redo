@@ -96,7 +96,8 @@ public class InputOutput implements PrintInputOrder {
 		double ucp = p.ucp ();
 		double Manhour = p.Manhours();
 		
-		System.out.println (ucp +""+ Manhour);
+		System.out.println ("Total Use Case Point  : "+ ucp);
+		System.out.println ("Total man hour        : "+ Manhour);
 		
 		
 		
