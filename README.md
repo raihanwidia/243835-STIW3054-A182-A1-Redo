@@ -12,11 +12,11 @@ it is well known that estimating the resource need it for developing a software 
 
 ### Captured Output 
 
-![alt text] (https://github.com/raihanwidia/243835-STIW3054-A182-A1-Redo/blob/master/CaptureRun.JPG)
+![image] (https://github.com/raihanwidia/243835-STIW3054-A182-A1-Redo/blob/master/CaptureRun.JPG)
 
 ### Diagram
 
-![alt text] (https://github.com/raihanwidia/243835-STIW3054-A182-A1-Redo/blob/master/243835Diagram.jpg)
+![image] (https://github.com/raihanwidia/243835-STIW3054-A182-A1-Redo/blob/master/243835Diagram.jpg)
 
 ### Video
 
