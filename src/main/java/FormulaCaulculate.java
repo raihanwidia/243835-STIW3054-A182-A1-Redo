@@ -1,5 +1,5 @@
 
-public class FormulaCaulculate implements UUCP , EXPFA , SZUC , TCF  {
+public class FormulaCaulculate  {
 
 	
 	static CalculateUseCase a;
@@ -26,7 +26,53 @@ public class FormulaCaulculate implements UUCP , EXPFA , SZUC , TCF  {
 		TechnicalF = b.totalTF();
 		ExperienceF = c.totalEF(); 
 	    formulatype = c.manhFormula();
-	}	
+	}
+
+	public int Uucp () {
+		return weightedUseCases + weightedActors; 
+	}
+	
+	public double Tcf() {
+		return (0.01 * TechnicalF)+0.06;
+	}
+	
+	public double SzUC() {
+		int a = Uucp();
+		double b = Tcf();
+		return a * b;
+	}
+
+	public double ExpFa() {
+		return (-0.03 * TechnicalF)+1.4;
+	}
+	
+	
+	public double ucp () {
+		double a = SzUC();
+		double b = ExpFa();
+		return a*b;
+	}
+	
+    public double Manhours(){
+		
+		double effrt;
+		
+		if (formulatype == 1) {
+			effrt = ucp () * 20;
+		}else if (formulatype == 2) {
+			effrt = ucp () * 28;
+		}else {
+			effrt = -1;
+		}
+		
+		return effrt;
+	}
+	
+
+	
+
+	
+	
 	
 
 	

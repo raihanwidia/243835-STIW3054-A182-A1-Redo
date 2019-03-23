@@ -93,6 +93,13 @@ public class InputOutput implements PrintInputOrder {
 	public void calculate() {
 		// TODO Auto-generated method stub
 		FormulaCaulculate p = new FormulaCaulculate(a,b,c,d);
+		double ucp = p.ucp ();
+		double Manhour = p.Manhours();
+		
+		System.out.println (ucp +""+ Manhour);
+		
+		
+		
 	}
 
 }
